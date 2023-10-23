@@ -354,6 +354,7 @@ with `net/http` can be used with chi's mux.
 | [RouteHeaders]         | Route handling for request headers                                      |
 | [SetHeader]            | Short-hand middleware to set a response header key/value                |
 | [StripSlashes]         | Strip slashes on routing paths                                          |
+| [Sunset]               | Sunset enable setting of Deprecation/Sunset in response header          |
 | [Throttle]             | Puts a ceiling on the number of concurrent requests                     |
 | [Timeout]              | Signals to the request context when the timeout deadline is reached     |
 | [URLFormat]            | Parse extension from url and put it on request context                  |
@@ -380,6 +381,7 @@ with `net/http` can be used with chi's mux.
 [RouteHeaders]: https://pkg.go.dev/github.com/go-chi/chi/middleware#RouteHeaders
 [SetHeader]: https://pkg.go.dev/github.com/go-chi/chi/middleware#SetHeader
 [StripSlashes]: https://pkg.go.dev/github.com/go-chi/chi/middleware#StripSlashes
+[Sunset]: https://pkg.go.dev/github.com/go-chi/chi/middleware#Sunset
 [Throttle]: https://pkg.go.dev/github.com/go-chi/chi/middleware#Throttle
 [ThrottleBacklog]: https://pkg.go.dev/github.com/go-chi/chi/middleware#ThrottleBacklog
 [ThrottleWithOpts]: https://pkg.go.dev/github.com/go-chi/chi/middleware#ThrottleWithOpts
